@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>ui pages</title>
+    </head>
+    <style>
+        body{background-color: rgba(254, 47, 0, 0.527);
+        color:blue;
+    background-image:url(shan4.jpg);
+background-size: cover;}
+nav{
+                
+                background-color:blue;
+                color: white;
+                padding:10px
+            }
+            nav ul{
+                list-style-type: none;
+                margin:0;
+                padding: 0;
+            }
+            nav ul li{
+                display:inline;
+                margin-right: 20px;
+
+            }
+            nav ul li a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+            nav ul li a:hover{
+                text-decoration: underline;
+            }
+h1{text-align: center;}
+h3{
+    text-align: center;
+}
+h1{text-shadow: 5px 5px 10px red;}
+    </style>
+    <body>
+        <form action="success.html">
+           <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                     <li><a href="About .html">About</a></li>
+                      <li><a href="login.html">Login</a></li>
+                        <li><a href="contactus.html">Contactus</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                    </nav>
+            <h1>Registration form</h1>
+            <h3>Username:<input type="text" name="uname"autofocus><br>
+            Password:<input type="password" name="pass"></br>
+         Email id:<input type="text" name="mail"></br>
+         Address:<input type="text" name="add"></br>
+         Age:<input type="number" name="num"></br>
+         <input type="radio" name="gender" value="f">female</br>
+         <input type="radio" name="gender" value="m">male</br>
+         <form action="/">
+            Date of birth:
+            <input type="date"name="birthday"> <form action="#"><br>
+                Email:
+                <input list="email"name="myemails"><br>
+                <datalist id="email">
+                    <option value="shan@gmail.com"></option>
+                    <option value="santhi@gmail.com"></option>
+                </datalist>
+             </form>
+         </form>
+         <form action="">
+         Mobile no:
+         <input type="tel" name="number"id="per1"pattern="[0-9]{10}"title="digit"><br>
+         </form>
+         select qualification:
+         <select name="course">
+            <option value="btech">btech</option>
+            <option value="mtech">mtech</option>
+            <option value="mba">mba</option>
+            <input type="submit">
+            </select></h3>
+         </select>
+                </form>
+    </body>
+    </html>
+
